@@ -1,0 +1,24 @@
+Weather Dashboard
+
+Goals:
+    -weather dashboard with search functionality to find weather for multiple cities
+
+Things I need:
+    -OpenWeatherAPI - retrieve weather data
+        -(how to start)
+    -Jquery (AJAX) , JSON format
+    -Html
+    -CSS
+
+    Display:
+        -city
+        -date
+        -temperature
+        -humidity
+        -wind speed
+
+Things I need to happen:
+    1) search for a city
+    2) display the results
+    3) Dynamic Html
+
