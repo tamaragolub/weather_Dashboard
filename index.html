@@ -7,33 +7,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Weather Dashboard</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <h1>Weather Dashboard</h1>
     </header>
 
-    <aside>
-        <div>
+<main class="main">
+    <aside class="sidePanel">
+        <div class="search">
             <label for="">Search for a City</label>
-            <input type="text" name="" id="cityName">
+            <input type="text" name="" id="cityName" class="searchBar">
             <button id="btn-search">Search</button>
         </div>
     </aside>
 
-    <main>
+<!-- 
+ aside: full height, 100vh
+ main: full height, bg-color
+
+ -->
+
+    <div class="mainDisplay">
         <div id="cityDisplay">
             <!-- <div>
-                <h2>City Name and Date</h2>
-                <p>Temperature</p>
-                <p>Humidity</p>
-                <p>Wind Speed</p>
-            </div> -->
+                    <h2>City Name and Date</h2>
+                    <p>Temperature</p>
+                    <p>Humidity</p>
+                    <p>Wind Speed</p>
+                </div> -->
         </div>
-    </main>
+    </div>
+</main>
 
 
 

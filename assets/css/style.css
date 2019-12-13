@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+.main {
+    height: 100vh;
+    background: pink;
+    display: flex;
+}
+
+.sidePanel {
+    background-color: lightgray;
+    height: 100%;
+    width: 35%;
+}
+
+.mainDisplay{
+    /* float: right; */
+    width: 100%;
+    background-color: lightskyblue;
+}
+
+.cityBlock {
+    background-color: pink;
+}
+
+.searchBar {
+    height: 20px;
+}
+
+.search {
+    padding: 10px;
+}

@@ -17,7 +17,7 @@ $("#btn-search").click(function() {
       console.log("Humidity: " + result.main.humidity + "%");
       console.log("Wind Speed: " + result.wind.speed + " mph");
 
-      var newDiv = $("<div></div>");
+      var newDiv = $("<div class='cityBlock'></div>");
       var newH2 = $("<h3>" + result.name + "</h3>");
       var pTemp = $("<p>Temperature: " + newTemp.toFixed(2) + " F</p>");
       var pHumidity = $("<p>Humidity: " + result.main.humidity + "%</p>");
