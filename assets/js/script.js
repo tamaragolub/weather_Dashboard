@@ -1,6 +1,6 @@
 var apiKey = "ef9485652d4bc5c3b04bd6d4dba28a41";
 
-var apiURL = "http://api.openweathermap.org/data/2.5/weather?";
+var apiURL = "https://api.openweathermap.org/data/2.5/weather?";
 
 $("#btn-search").click(function() {
   var cityName = $("#cityName").val();
